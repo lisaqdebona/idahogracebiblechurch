@@ -1,0 +1,120 @@
+/* CUSTOM CSS */
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('fonts/proximanova-regular-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('fonts/proximanova-regularit-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-regularit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('fonts/proximanova-semibold-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-semibold-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('fonts/proximanova-semiboldit-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-semiboldit-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('fonts/proximanova-medium-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-medium-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('fonts/proximanova-mediumit-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-mediumit-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('fonts/proximanova-bold-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('fonts/proximanova-boldit-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-boldit-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('fonts/proximanova-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-extrabold-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('fonts/proximanova-extraboldit-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-extraboldit-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+body {
+	font-family: 'ProximaNova', sans-serif;
+	background: #FFF;
+	color: #000;
+}
+h1 {
+	font-size: 3em;
+	line-height: 1.2;
+	margin: .3em 0 0;
+}
+.theme-button a {
+	font-family: 'ProximaNova', sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	background: #FAAE6D;
+	color: #FFF;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 50px;
+}
+.white-button a {
+	font-family: 'ProximaNova', sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	background: #FFF;
+	color: #FAAE6D;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 50px;
+}
+p .white-button a,
+p .theme-button a {
+	margin-right: 15px;
+}
